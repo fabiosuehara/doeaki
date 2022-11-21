@@ -5,7 +5,7 @@ Fabio Yoshiharu Suehara
 Julio Martini
 Marcelo Soares
 Mariana Moraes Costa
-Rafael Amaro
+Rafael Rodrigues Amaro Nunes
 Robson Aparecido Ramos
 1 -  Acessar o index do projeto
 2 - Navegador pela página
