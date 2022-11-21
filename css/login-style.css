@@ -1,0 +1,59 @@
+body {
+  background-color: #218380;
+  font-family: worksans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+section {
+  background-color: #8f9c9c;
+  border-radius: 10% 10% 0 0;
+}
+
+section .logo {
+  padding: 100px 0px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+.btn-primary {
+  background-color: #73d2de;
+  border-radius: 15px;
+  padding: 10px 100px;
+  border: none;
+}
+
+.login-form {
+  display: flex;
+  margin: auto;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin-top: 10px;
+  color: white;
+  text-decoration: underline;
+}
+
+.cadastro {
+  background-color: #d9d9d9;
+  padding: 20px;
+  margin: 20px;
+}
