@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script defer src="../scripts/candidatura.js"></script>
+  </head>
+  <body>
+    <img src="../static/images/FOTO-13.jpg" class="campanha-imagem" />
+    <div class="campanha-descricao">
+        <h3>Apoio aos bombeiros do estado</h2>
+        <h4>Prefeitura de Birigui</h3>
+        <p>A prefeitura de Birigui busca voluntários para prestar apoio operacional aos bombeiros que lutam contras as queimadas na região.</p>
+        <fieldset id="funcao">
+            <legend>Escolha uma função</legend>
+            <div>
+                <input class="lista-funcao" type="checkbox" name="funcao" onclick="checkbox(this)">
+                <label for="funcao-1">Organizador de materiais</label>
+            </div>
+            <div>
+                <input class="lista-funcao" type="checkbox" name="funcao" onclick="checkbox(this)">
+                <label for="funcao-2">Telefonista</label>
+            </div>
+            <div>
+                <input class="lista-funcao" type="checkbox" name="funcao" onclick="checkbox(this)">
+                <label for="funcao-3">Motorista</label>
+            </div>
+        </fieldset>
+        <button type="button" class="btn btn-primary" id="candidatura">Enviar candidatura</button>
+  </body>
+  <footer></footer>
+</html>
